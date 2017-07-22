@@ -100,7 +100,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>SolidarGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Võrguga sünkroniseerimine...</translation>
@@ -118,8 +118,8 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Solidar</source>
+        <translation>Solidar</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -722,14 +722,14 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>solidar-core</name>
     <message>
         <source>Options:</source>
         <translation>Valikud:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Solidar Core</source>
+        <translation>Solidar Core</translation>
     </message>
     <message>
         <source>Information</source>

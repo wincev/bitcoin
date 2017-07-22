@@ -1,13 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Bitcoin Core
-Comment=Connect to the Bitcoin P2P Network
-Comment[de]=Verbinde mit dem Bitcoin peer-to-peer Netzwerk
-Comment[fr]=Bitcoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
-Exec=bitcoin-qt %u
+Name=Solidar Core
+Comment=Connect to the Solidar P2P Network
+Comment[de]=Verbinde mit dem Solidar peer-to-peer Netzwerk
+Comment[fr]=Solidar, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Solidar, eşten eşe kriptografik sanal para birimi
+Exec=solidar-qt %u
 Terminal=false
 Type=Application
-Icon=bitcoin128
-MimeType=x-scheme-handler/bitcoin;
+Icon=solidar128
+MimeType=x-scheme-handler/solidar;
 Categories=Office;Finance;

@@ -1,6 +1,6 @@
 [Protocol]
-exec=bitcoin-qt '%u'
-protocol=bitcoin
+exec=solidar-qt '%u'
+protocol=solidar
 input=none
 output=none
 helper=true

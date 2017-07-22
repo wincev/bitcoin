@@ -1,15 +1,15 @@
 [Unit]
-Description=Bitcoin's distributed currency daemon
+Description=Solidar's distributed currency daemon
 After=network.target
 
 [Service]
-User=bitcoin
-Group=bitcoin
+User=solidar
+Group=solidar
 
 Type=forking
-PIDFile=/var/lib/bitcoind/bitcoind.pid
-ExecStart=/usr/bin/bitcoind -daemon -pid=/var/lib/bitcoind/bitcoind.pid \
--conf=/etc/bitcoin/bitcoin.conf -datadir=/var/lib/bitcoind -disablewallet
+PIDFile=/var/lib/solidard/solidard.pid
+ExecStart=/usr/bin/solidard -daemon -pid=/var/lib/solidard/solidard.pid \
+-conf=/etc/solidar/solidar.conf -datadir=/var/lib/solidard -disablewallet
 
 Restart=always
 PrivateTmp=true
